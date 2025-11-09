@@ -8,13 +8,13 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 11
-		Day: 5
-		Hour: 20
-		Minute: 53
-		Second: 59
-		Millisecond: 363
+		Day: 8
+		Hour: 16
+		Minute: 11
+		Second: 37
+		Millisecond: 764
 	}
-	Creator: "FBX SDK/FBX Plugins version 2020.3.9"
+	Creator: "FBX SDK/FBX Plugins version 2020.3.8"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
 		Type: "UserData"
 		Version: 100
@@ -34,15 +34,15 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2026"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "06/11/2025 04:53:59.360"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "09/11/2025 00:11:37.762"
 			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallB_Trim.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2026"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "06/11/2025 04:53:59.360"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "09/11/2025 00:11:37.762"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut2.ma"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut3.ma"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1887601044416, "", "Scene" {
+	Document: 1892705365632, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -222,7 +222,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1887511627744, "Geometry::", "Mesh" {
+	Geometry: 1891109503968, "Geometry::", "Mesh" {
 		Vertices: *120 {
 			a: -75.0693511962891,-975,425,24.9306468963623,-975,425,-75.0693511962891,-775,425,24.9306468963623,-775,425,-75.0693511962891,-775,400,24.9306468963623,-775,400,-75.0693511962891,-975,400,24.9306468963623,-975,400,-75.0693511962891,-775,407.125579833984,-75.0693511962891,-775,417.874420166016,-75.0693511962891,-975,417.874420166016,-75.0693511962891,-975,407.125579833984,24.9306468963623,-975,417.874420166016,24.9306468963623,-975,407.125579833984,24.9306468963623,-775,417.874420166016,24.9306468963623,-775,407.125579833984,24.9306468963623,-775,421.437225341797,-75.0693511962891,-775,421.437225341797,-75.0693511962891,-975,421.437225341797,24.9306468963623,-975,421.437225341797,-75.0693511962891,-975,403.562774658203,-75.0693511962891,-775,403.562774658203,24.9306468963623,-775,403.562774658203,24.9306468963623,-975,403.562774658203,26.6260356903076,-775,421.437225341797,-76.7647399902344,-775,421.437225341797,26.6260356903076,-775,417.874420166016,-76.7647399902344,-775,417.874420166016,-76.7647399902344,-975,417.874420166016,-76.7647399902344,-975,421.437225341797,26.6260356903076,-975,417.874420166016,26.6260356903076,-975,421.437225341797,-76.7647399902344,-975,403.562774658203,-76.7647399902344,-775,403.562774658203,-76.7647399902344,-975,407.125579833984,-76.7647399902344,-775,407.125579833984,26.6260356903076,-775,407.125579833984,26.6260356903076,-775,403.562774658203,26.6260356903076,-975,407.125579833984,26.6260356903076,-975,403.562774658203
 		} 
@@ -330,7 +330,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1888753896944, "Model::Mdl_WallB_Trim", "Mesh" {
+	Model: 1892961407648, "Model::Mdl_WallB_Trim", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",24.9306468963623,-975,400
@@ -345,18 +345,18 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1887481603376, "Material::Blockout_Temp_Mat", "" {
+	Material: 1893015060160, "Material::Blockout_Temp_Mat", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
 		Properties70:  {
 			P: "AmbientColor", "Color", "", "A",0,0,0
-			P: "DiffuseColor", "Color", "", "A",0.0939999967813492,0.0939999967813492,0.0939999967813492
+			P: "DiffuseColor", "Color", "", "A",0.5,0.5,0.5
 			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
 			P: "TransparencyFactor", "Number", "", "A",1
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
 			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.0751999985456466,0.0751999985456466,0.0751999985456466
+			P: "Diffuse", "Vector3D", "Vector", "",0.400000005960464,0.400000005960464,0.400000005960464
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
@@ -368,11 +368,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Mdl_WallB_Trim, Model::RootNode
-	C: "OO",1888753896944,0
+	C: "OO",1892961407648,0
 	
 	;Geometry::, Model::Mdl_WallB_Trim
-	C: "OO",1887511627744,1888753896944
+	C: "OO",1891109503968,1892961407648
 	
 	;Material::Blockout_Temp_Mat, Model::Mdl_WallB_Trim
-	C: "OO",1887481603376,1888753896944
+	C: "OO",1893015060160,1892961407648
 }

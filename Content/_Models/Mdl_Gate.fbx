@@ -8,13 +8,13 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 11
-		Day: 5
-		Hour: 20
-		Minute: 54
-		Second: 0
-		Millisecond: 511
+		Day: 8
+		Hour: 16
+		Minute: 11
+		Second: 36
+		Millisecond: 376
 	}
-	Creator: "FBX SDK/FBX Plugins version 2020.3.9"
+	Creator: "FBX SDK/FBX Plugins version 2020.3.8"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
 		Type: "UserData"
 		Version: 100
@@ -34,15 +34,15 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2026"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "06/11/2025 04:54:00.510"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "09/11/2025 00:11:36.374"
 			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_Gate.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2026"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "06/11/2025 04:54:00.510"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "09/11/2025 00:11:36.374"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut2.ma"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut3.ma"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1887601042112, "", "Scene" {
+	Document: 1892705366144, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -222,7 +222,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1887511627296, "Geometry::", "Mesh" {
+	Geometry: 1891109503968, "Geometry::", "Mesh" {
 		Vertices: *60 {
 			a: 9.20769882202148,-1900,0,-9.20771026611328,-1900,0,9.20769882202148,-2138.20239257812,0,-9.20770645141602,-2138.20239257812,0,9.20769500732422,-1661.79760742188,-7.62939453125e-06,-9.20770645141602,-1661.79760742188,-7.62939453125e-06,-9.20770645141602,-1661.79748535156,676.9345703125,-9.20771026611328,-1900,816.248901367188,-9.20770645141602,-2138.20239257812,676.9345703125,9.20769882202148,-2138.20239257812,676.934448242188,9.20769882202148,-1900,816.248840332031,9.20769882202148,-1661.79748535156,676.934448242188,9.20769500732422,-2019.10119628906,0,9.20769500732422,-2019.10119628906,797.382934570312,-9.20771026611328,-2019.10119628906,797.382995605469,-9.20771026611328,-2019.10119628906,0,9.20769882202148,-1780.89880371094,0,9.20769882202148,-1780.89880371094,797.382934570312,-9.20771026611328,-1780.89880371094,797.382995605469,-9.20771026611328,-1780.89880371094,0
 		} 
@@ -331,7 +331,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1888753894624, "Model::Mdl_Gate", "Mesh" {
+	Model: 1892961391408, "Model::Mdl_Gate", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",9.20769882202148,-1900,0
@@ -346,18 +346,18 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1887481603376, "Material::Blockout_Temp_Mat", "" {
+	Material: 1893015055760, "Material::Blockout_Temp_Mat", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
 		Properties70:  {
 			P: "AmbientColor", "Color", "", "A",0,0,0
-			P: "DiffuseColor", "Color", "", "A",0.0939999967813492,0.0939999967813492,0.0939999967813492
+			P: "DiffuseColor", "Color", "", "A",0.5,0.5,0.5
 			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
 			P: "TransparencyFactor", "Number", "", "A",1
 			P: "Emissive", "Vector3D", "Vector", "",0,0,0
 			P: "Ambient", "Vector3D", "Vector", "",0,0,0
-			P: "Diffuse", "Vector3D", "Vector", "",0.0751999985456466,0.0751999985456466,0.0751999985456466
+			P: "Diffuse", "Vector3D", "Vector", "",0.400000005960464,0.400000005960464,0.400000005960464
 			P: "Opacity", "double", "Number", "",1
 		}
 	}
@@ -369,11 +369,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Mdl_Gate, Model::RootNode
-	C: "OO",1888753894624,0
+	C: "OO",1892961391408,0
 	
 	;Geometry::, Model::Mdl_Gate
-	C: "OO",1887511627296,1888753894624
+	C: "OO",1891109503968,1892961391408
 	
 	;Material::Blockout_Temp_Mat, Model::Mdl_Gate
-	C: "OO",1887481603376,1888753894624
+	C: "OO",1893015055760,1892961391408
 }
