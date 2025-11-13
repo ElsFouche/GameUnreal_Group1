@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 11
-		Day: 8
-		Hour: 16
-		Minute: 23
-		Second: 11
-		Millisecond: 815
+		Day: 10
+		Hour: 21
+		Minute: 41
+		Second: 28
+		Millisecond: 144
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.8"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -34,15 +34,15 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2026"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "09/11/2025 00:23:11.813"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "11/11/2025 05:41:28.142"
 			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallA_Out_Upper.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2026"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "09/11/2025 00:23:11.813"
-			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut3.ma"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "11/11/2025 05:41:28.142"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut5.ma"
 		}
 	}
 }
@@ -57,7 +57,7 @@ GlobalSettings:  {
 		P: "CoordAxisSign", "int", "Integer", "",1
 		P: "OriginalUpAxis", "int", "Integer", "",2
 		P: "OriginalUpAxisSign", "int", "Integer", "",1
-		P: "UnitScaleFactor", "double", "Number", "",100
+		P: "UnitScaleFactor", "double", "Number", "",1
 		P: "OriginalUnitScaleFactor", "double", "Number", "",1
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
 		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1892123929424, "", "Scene" {
+	Document: 2735108270800, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -97,7 +97,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 6
+	Count: 4
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -116,38 +116,25 @@ Definitions:  {
 	}
 	ObjectType: "Material" {
 		Count: 1
-		PropertyTemplate: "FbxSurfaceMaterial" {
+		PropertyTemplate: "FbxSurfaceLambert" {
 			Properties70:  {
-				P: "ShadingModel", "KString", "", "", "Unknown"
+				P: "ShadingModel", "KString", "", "", "Lambert"
 				P: "MultiLayer", "bool", "", "",0
-			}
-		}
-	}
-	ObjectType: "Implementation" {
-		Count: 1
-		PropertyTemplate: "FbxImplementation" {
-			Properties70:  {
-				P: "ShaderLanguage", "KString", "", "", "MentalRaySL"
-				P: "ShaderLanguageVersion", "KString", "", "", ""
-				P: "RenderAPI", "KString", "", "", "MentalRay"
-				P: "RenderAPIVersion", "KString", "", "", ""
-				P: "RootBindingName", "KString", "", "", ""
-				P: "Constants", "Compound", "", ""
-			}
-		}
-	}
-	ObjectType: "BindingTable" {
-		Count: 1
-		PropertyTemplate: "FbxBindingTable" {
-			Properties70:  {
-				P: "TargetName", "KString", "", "", ""
-				P: "TargetType", "KString", "", "", ""
-				P: "CodeAbsoluteURL", "KString", "XRefUrl", "", ""
-				P: "CodeRelativeURL", "KString", "XRefUrl", "", ""
-				P: "CodeTAG", "KString", "", "", "shader"
-				P: "DescAbsoluteURL", "KString", "XRefUrl", "", ""
-				P: "DescRelativeURL", "KString", "XRefUrl", "", ""
-				P: "DescTAG", "KString", "", "", "shader"
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
 			}
 		}
 	}
@@ -235,15 +222,15 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1892747657232, "Geometry::", "Mesh" {
-		Vertices: *36 {
-			a: -450,-375,400,-450,-425,400,-450,-375,0,-450,-425,0,-325,-425,0,-325,-425,400,-275,-375,400,-275,-375,0,-275,-550,400,-325,-550,400,-275,-550,0,-325,-550,0
+	Geometry: 2730411378880, "Geometry::", "Mesh" {
+		Vertices: *18 {
+			a: -450,-375,400,-450,-375,0,-275,-375,400,-275,-375,0,-275,-550,400,-275,-550,0
 		} 
-		PolygonVertexIndex: *24 {
-			a: 0,1,5,-7,1,3,4,-6,2,0,6,-8,8,6,5,-10,9,5,4,-12,10,7,6,-9
+		PolygonVertexIndex: *8 {
+			a: 1,0,2,-4,5,3,2,-5
 		} 
-		Edges: *17 {
-			a: 0,3,1,8,4,5,11,6,2,10,15,14,12,19,18,23,20
+		Edges: *7 {
+			a: 1,0,3,2,6,7,4
 		} 
 		GeometryVersion: 124
 		LayerElementNormal: 0 {
@@ -251,11 +238,11 @@ Objects:  {
 			Name: ""
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "Direct"
-			Normals: *72 {
-				a: 0,0,0.999999940395355,0,0,0.999999940395355,0,0,1,0,0,0.999999940395355,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0.999999940395355,0,0,0.999999940395355,0,0,1,0,0,0.999999940395355,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1,0,0
+			Normals: *24 {
+				a: 0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0
 			} 
-			NormalsW: *24 {
-				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			NormalsW: *8 {
+				a: 1,1,1,1,1,1,1,1
 			} 
 		}
 		LayerElementBinormal: 0 {
@@ -263,11 +250,11 @@ Objects:  {
 			Name: "map1"
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "Direct"
-			Binormals: *72 {
-				a: 0.923879623413086,-0.382683455944061,0,1,0,-0,0.923879563808441,-0.382683426141739,0,0.707106828689575,-0.707106828689575,0,1,0,0,1,0,0,1,0,0,1,0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,-0.382683455944061,0.923879623413086,-0,-0.707106828689575,0.707106828689575,-0,-0.382683426141739,0.923879563808441,-0,-0,1,-0,0,1,0,0,1,0,0,1,0,0,1,0,-0,1,-0,-0,1,-0,-0,1,-0,-0,1,-0
+			Binormals: *24 {
+				a: -2.59040664474242e-08,0,1,1.94280474374864e-07,-0,1,4.14465006315368e-07,-0,1,1.94280474374864e-07,-0,1,0,-3.23800786183881e-09,1,0,-1.6190039309194e-09,1,-0,0,1,0,-1.6190039309194e-09,1
 			} 
-			BinormalsW: *24 {
-				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			BinormalsW: *8 {
+				a: 1,1,1,1,1,1,1,1
 			} 
 
 		}
@@ -276,11 +263,11 @@ Objects:  {
 			Name: "map1"
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "Direct"
-			Tangents: *72 {
-				a: -0.382683426141739,-0.923879563808441,0,0,-1,0,-0.382683426141739,-0.923879563808441,0,-0.707106828689575,-0.707106828689575,0,-0,0,-1,0,0,-1,0,0,-1,0,0,-1,-0,-0,1,-0,0,1,-0,0,1,-0,0,1,-0.923879563808441,-0.382683426141739,0,-0.707106828689575,-0.707106828689575,0,-0.923879563808441,-0.382683426141739,0,-1,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,0,0,1,0,0,1,0,0,1,0,0,1
+			Tangents: *24 {
+				a: -1,0,-2.59040664474242e-08,-1,0,1.94280474374864e-07,-1,-0,4.14465006315368e-07,-1,0,1.94280474374864e-07,0,1,3.23800786183881e-09,0,1,1.6190039309194e-09,0,1,-0,0,1,1.6190039309194e-09
 			} 
-			TangentsW: *24 {
-				a: 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+			TangentsW: *8 {
+				a: 1,1,1,1,1,1,1,1
 			} 
 		}
 		LayerElementUV: 0 {
@@ -288,11 +275,11 @@ Objects:  {
 			Name: "map1"
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
-			UV: *32 {
-				a: 0.375,0,0.625,0,0.875,0,0.125,0,0.875,0.125,0.625,0.125,0.375,0.125,0.125,0.125,0.375,0,0.625,0,0.625,0.125,0.375,0.125,0.875,0,0.875,0.125,0.125,0,0.125,0.125
+			UV: *12 {
+				a: 0.666153430938721,0.00890281796455383,0.666153430938721,0.666324615478516,0.378531277179718,0.666324734687805,0.378531277179718,0.00890281051397324,0.0909092128276825,0.00890281144529581,0.0909092128276825,0.666324734687805
 			} 
-			UVIndex: *24 {
-				a: 0,1,5,6,1,2,4,5,3,0,6,7,8,11,10,9,9,10,13,12,14,15,11,8
+			UVIndex: *8 {
+				a: 0,1,2,3,4,3,2,5
 			} 
 		}
 		LayerElementSmoothing: 0 {
@@ -300,8 +287,8 @@ Objects:  {
 			Name: ""
 			MappingInformationType: "ByEdge"
 			ReferenceInformationType: "Direct"
-			Smoothing: *17 {
-				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+			Smoothing: *7 {
+				a: 0,0,0,0,0,0,0
 			} 
 		}
 		LayerElementMaterial: 0 {
@@ -341,133 +328,35 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1892961386768, "Model::Mdl_WallA_Out_Upper", "Mesh" {
+	Model: 2734588790304, "Model::Mdl_WallA_Out_Upper", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",-2.75,-3.75,0
-			P: "ScalingOffset", "Vector3D", "Vector", "",272.25,371.25,0
+			P: "RotationPivot", "Vector3D", "Vector", "",-275,-375,0
 			P: "ScalingPivot", "Vector3D", "Vector", "",-275,-375,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",2.75,3.75,0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.01,0.01,0.01
+			P: "Lcl Translation", "Lcl Translation", "", "A",275,375,0
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1893013742992, "Material::standardSurface1", "" {
+	Material: 2733934354848, "Material::Blockout_Temp_Mat", "" {
 		Version: 102
-		ShadingModel: "unknown"
+		ShadingModel: "lambert"
 		MultiLayer: 0
 		Properties70:  {
-			P: "Maya", "Compound", "", ""
-			P: "Maya|TypeId", "int", "Integer", "",1398031443
-			P: "Maya|base", "float", "", "",1
-			P: "Maya|baseColor", "Vector3D", "Vector", "",0.400000005960464,0.400000005960464,0.400000005960464
-			P: "Maya|diffuseRoughness", "float", "", "",0
-			P: "Maya|specular", "float", "", "",1
-			P: "Maya|specularColor", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|specularRoughness", "float", "", "",0.5
-			P: "Maya|specularIOR", "float", "", "",1.5
-			P: "Maya|specularAnisotropy", "float", "", "",0
-			P: "Maya|specularRotation", "float", "", "",0
-			P: "Maya|metalness", "float", "", "",0
-			P: "Maya|transmission", "float", "", "",0
-			P: "Maya|transmissionColor", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|transmissionDepth", "float", "", "",0
-			P: "Maya|transmissionScatter", "Vector3D", "Vector", "",0,0,0
-			P: "Maya|transmissionScatterAnisotropy", "float", "", "",0
-			P: "Maya|transmissionDispersion", "float", "", "",0
-			P: "Maya|transmissionExtraRoughness", "float", "", "",0
-			P: "Maya|subsurface", "float", "", "",0
-			P: "Maya|subsurfaceColor", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|subsurfaceRadius", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|subsurfaceScale", "float", "", "",1
-			P: "Maya|subsurfaceAnisotropy", "float", "", "",0
-			P: "Maya|sheen", "float", "", "",0
-			P: "Maya|sheenColor", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|sheenRoughness", "float", "", "",0.3
-			P: "Maya|thinWalled", "bool", "", "",0
-			P: "Maya|coat", "float", "", "",0
-			P: "Maya|coatColor", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|coatRoughness", "float", "", "",0.1
-			P: "Maya|coatIOR", "float", "", "",1.5
-			P: "Maya|coatAnisotropy", "float", "", "",0
-			P: "Maya|coatRotation", "float", "", "",0
-			P: "Maya|coatNormal", "Vector3D", "Vector", "",0,0,0
-			P: "Maya|coatAffectColor", "float", "", "",0
-			P: "Maya|coatAffectRoughness", "float", "", "",0
-			P: "Maya|thinFilmThickness", "float", "", "",0
-			P: "Maya|thinFilmIOR", "float", "", "",1.5
-			P: "Maya|emission", "float", "", "",0
-			P: "Maya|emissionColor", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|opacity", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|normalCamera", "Vector3D", "Vector", "",1,1,1
-			P: "Maya|hardwareShader", "Vector3D", "Vector", "",0,0,0
-			P: "Maya|normalCameraUsedAs", "int", "Integer", "",0
-			P: "Maya|normalCameraFactor", "double", "Number", "",0
+			P: "AmbientColor", "Color", "", "A",0,0,0
+			P: "DiffuseColor", "Color", "", "A",0.5,0.5,0.5
+			P: "DiffuseFactor", "Number", "", "A",0.800000011920929
+			P: "TransparencyFactor", "Number", "", "A",1
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0,0,0
+			P: "Diffuse", "Vector3D", "Vector", "",0.400000005960464,0.400000005960464,0.400000005960464
+			P: "Opacity", "double", "Number", "",1
 		}
-	}
-	Implementation: 1892730742496, "Implementation::standardSurface1_Implementation", "" {
-		Version: 100
-		Properties70:  {
-			P: "ShaderLanguage", "KString", "", "", "StandardSSL"
-			P: "ShaderLanguageVersion", "KString", "", "", "1.0.1"
-			P: "RenderAPI", "KString", "", "", "OSL"
-			P: "RootBindingName", "KString", "", "", "root"
-		}
-	}
-	BindingTable: 1888034348992, "BindingTable::root 7", "" {
-		Version: 100
-		Properties70:  {
-			P: "TargetName", "KString", "", "", "root"
-			P: "TargetType", "KString", "", "", "shader"
-		}
-		Entry: "Maya|specularIOR", "FbxPropertyEntry", "specular_IOR", "FbxSemanticEntry"
-		Entry: "Maya|emission", "FbxPropertyEntry", "emission", "FbxSemanticEntry"
-		Entry: "Maya|thinFilmThickness", "FbxPropertyEntry", "thin_film_thickness", "FbxSemanticEntry"
-		Entry: "Maya|coatAffectColor", "FbxPropertyEntry", "coat_affect_color", "FbxSemanticEntry"
-		Entry: "Maya|sheenColor", "FbxPropertyEntry", "sheen_color", "FbxSemanticEntry"
-		Entry: "Maya|hardwareShader", "FbxPropertyEntry", "hardwareShader", "FbxSemanticEntry"
-		Entry: "Maya|sheen", "FbxPropertyEntry", "sheen", "FbxSemanticEntry"
-		Entry: "Maya|transmissionDepth", "FbxPropertyEntry", "transmission_depth", "FbxSemanticEntry"
-		Entry: "Maya|transmissionColor", "FbxPropertyEntry", "transmission_color", "FbxSemanticEntry"
-		Entry: "Maya|specularColor", "FbxPropertyEntry", "specular_color", "FbxSemanticEntry"
-		Entry: "Maya|sheenRoughness", "FbxPropertyEntry", "sheen_roughness", "FbxSemanticEntry"
-		Entry: "Maya|metalness", "FbxPropertyEntry", "metalness", "FbxSemanticEntry"
-		Entry: "Maya|baseColor", "FbxPropertyEntry", "base_color", "FbxSemanticEntry"
-		Entry: "Maya|base", "FbxPropertyEntry", "base", "FbxSemanticEntry"
-		Entry: "Maya|coatNormal", "FbxPropertyEntry", "coat_normal", "FbxSemanticEntry"
-		Entry: "Maya|coatRoughness", "FbxPropertyEntry", "coat_roughness", "FbxSemanticEntry"
-		Entry: "Maya|transmissionExtraRoughness", "FbxPropertyEntry", "transmission_extra_roughness", "FbxSemanticEntry"
-		Entry: "Maya|specular", "FbxPropertyEntry", "specular", "FbxSemanticEntry"
-		Entry: "Maya|subsurfaceScale", "FbxPropertyEntry", "subsurface_scale", "FbxSemanticEntry"
-		Entry: "Maya|specularAnisotropy", "FbxPropertyEntry", "specular_anisotropy", "FbxSemanticEntry"
-		Entry: "Maya|diffuseRoughness", "FbxPropertyEntry", "diffuse_roughness", "FbxSemanticEntry"
-		Entry: "Maya|transmissionDispersion", "FbxPropertyEntry", "transmission_dispersion", "FbxSemanticEntry"
-		Entry: "Maya|transmission", "FbxPropertyEntry", "transmission", "FbxSemanticEntry"
-		Entry: "Maya|emissionColor", "FbxPropertyEntry", "emission_color", "FbxSemanticEntry"
-		Entry: "Maya|subsurfaceAnisotropy", "FbxPropertyEntry", "subsurface_anisotropy", "FbxSemanticEntry"
-		Entry: "Maya|subsurface", "FbxPropertyEntry", "subsurface", "FbxSemanticEntry"
-		Entry: "Maya|specularRoughness", "FbxPropertyEntry", "specular_roughness", "FbxSemanticEntry"
-		Entry: "Maya|coatColor", "FbxPropertyEntry", "coat_color", "FbxSemanticEntry"
-		Entry: "Maya|transmissionScatterAnisotropy", "FbxPropertyEntry", "transmission_scatter_anisotropy", "FbxSemanticEntry"
-		Entry: "Maya|coatIOR", "FbxPropertyEntry", "coat_IOR", "FbxSemanticEntry"
-		Entry: "Maya|specularRotation", "FbxPropertyEntry", "specular_rotation", "FbxSemanticEntry"
-		Entry: "Maya|coatAffectRoughness", "FbxPropertyEntry", "coat_affect_roughness", "FbxSemanticEntry"
-		Entry: "Maya|coatRotation", "FbxPropertyEntry", "coat_rotation", "FbxSemanticEntry"
-		Entry: "Maya|coat", "FbxPropertyEntry", "coat", "FbxSemanticEntry"
-		Entry: "Maya|thinWalled", "FbxPropertyEntry", "thin_walled", "FbxSemanticEntry"
-		Entry: "Maya|opacity", "FbxPropertyEntry", "opacity", "FbxSemanticEntry"
-		Entry: "Maya|thinFilmIOR", "FbxPropertyEntry", "thin_film_IOR", "FbxSemanticEntry"
-		Entry: "Maya|normalCamera", "FbxPropertyEntry", "normalCamera", "FbxSemanticEntry"
-		Entry: "Maya|coatAnisotropy", "FbxPropertyEntry", "coat_anisotropy", "FbxSemanticEntry"
-		Entry: "Maya|subsurfaceRadius", "FbxPropertyEntry", "subsurface_radius", "FbxSemanticEntry"
-		Entry: "Maya|subsurfaceColor", "FbxPropertyEntry", "subsurface_color", "FbxSemanticEntry"
-		Entry: "Maya|transmissionScatter", "FbxPropertyEntry", "transmission_scatter", "FbxSemanticEntry"
 	}
 }
 
@@ -477,17 +366,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Mdl_WallA_Out_Upper, Model::RootNode
-	C: "OO",1892961386768,0
-	
-	;Material::standardSurface1, Implementation::standardSurface1_Implementation
-	C: "OO",1893013742992,1892730742496
-	
-	;BindingTable::root 7, Implementation::standardSurface1_Implementation
-	C: "OO",1888034348992,1892730742496
+	C: "OO",2734588790304,0
 	
 	;Geometry::, Model::Mdl_WallA_Out_Upper
-	C: "OO",1892747657232,1892961386768
+	C: "OO",2730411378880,2734588790304
 	
-	;Material::standardSurface1, Model::Mdl_WallA_Out_Upper
-	C: "OO",1893013742992,1892961386768
+	;Material::Blockout_Temp_Mat, Model::Mdl_WallA_Out_Upper
+	C: "OO",2733934354848,2734588790304
 }
