@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 11
-		Day: 10
+		Day: 19
 		Hour: 21
-		Minute: 41
+		Minute: 28
 		Second: 28
-		Millisecond: 144
+		Millisecond: 4
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.8"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,21 +28,21 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallA_Out_Upper.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallA_Out_Upper.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models\Modular\Mdl_WallA_Out_Upper.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models\Modular\Mdl_WallA_Out_Upper.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2026"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "11/11/2025 05:41:28.142"
-			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallA_Out_Upper.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "20/11/2025 05:28:28.002"
+			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models\Modular\Mdl_WallA_Out_Upper.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2026"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "11/11/2025 05:41:28.142"
-			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut5.ma"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "20/11/2025 05:28:28.002"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\Texturing.0003.ma"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2735108270800, "", "Scene" {
+	Document: 1747154037952, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -222,7 +222,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2730411378880, "Geometry::", "Mesh" {
+	Geometry: 1747052846672, "Geometry::", "Mesh" {
 		Vertices: *18 {
 			a: -450,-375,400,-450,-375,0,-275,-375,400,-275,-375,0,-275,-550,400,-275,-550,0
 		} 
@@ -251,7 +251,7 @@ Objects:  {
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "Direct"
 			Binormals: *24 {
-				a: -2.59040664474242e-08,0,1,1.94280474374864e-07,-0,1,4.14465006315368e-07,-0,1,1.94280474374864e-07,-0,1,0,-3.23800786183881e-09,1,0,-1.6190039309194e-09,1,-0,0,1,0,-1.6190039309194e-09,1
+				a: 0,-0,1,2.72478303031676e-07,-0,1,5.44956606063352e-07,-0,1,2.72478303031676e-07,-0,1,-0,2.72478388296804e-07,1,-0,1.36239194148402e-07,1,-0,0,1,-0,1.36239194148402e-07,1
 			} 
 			BinormalsW: *8 {
 				a: 1,1,1,1,1,1,1,1
@@ -264,10 +264,22 @@ Objects:  {
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "Direct"
 			Tangents: *24 {
-				a: -1,0,-2.59040664474242e-08,-1,0,1.94280474374864e-07,-1,-0,4.14465006315368e-07,-1,0,1.94280474374864e-07,0,1,3.23800786183881e-09,0,1,1.6190039309194e-09,0,1,-0,0,1,1.6190039309194e-09
+				a: -1,0,0,-1,0,2.72478303031676e-07,-1,-0,5.44956606063352e-07,-1,0,2.72478303031676e-07,-0,1,-2.72478388296804e-07,0,1,-1.36239194148402e-07,0,1,-0,0,1,-1.36239194148402e-07
 			} 
 			TangentsW: *8 {
 				a: 1,1,1,1,1,1,1,1
+			} 
+		}
+		LayerElementColor: 0 {
+			Version: 101
+			Name: "colorSet1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			Colors: *32 {
+				a: 1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1
+			} 
+			ColorIndex: *8 {
+				a: 0,1,2,3,4,5,6,7
 			} 
 		}
 		LayerElementUV: 0 {
@@ -275,11 +287,11 @@ Objects:  {
 			Name: "map1"
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
-			UV: *12 {
-				a: 0.666153430938721,0.00890281796455383,0.666153430938721,0.666324615478516,0.378531277179718,0.666324734687805,0.378531277179718,0.00890281051397324,0.0909092128276825,0.00890281144529581,0.0909092128276825,0.666324734687805
+			UV: *16 {
+				a: 1,2,1,4,0.125000238418579,4.00000047683716,0.874999761581421,2.00000023841858,0,2,-1.78813934326172e-07,4,0.874999523162842,4,0.125000238418579,2
 			} 
 			UVIndex: *8 {
-				a: 0,1,2,3,4,3,2,5
+				a: 0,1,2,7,4,3,6,5
 			} 
 		}
 		LayerElementSmoothing: 0 {
@@ -319,6 +331,10 @@ Objects:  {
 				TypedIndex: 0
 			}
 			LayerElement:  {
+				Type: "LayerElementColor"
+				TypedIndex: 0
+			}
+			LayerElement:  {
 				Type: "LayerElementSmoothing"
 				TypedIndex: 0
 			}
@@ -328,7 +344,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2734588790304, "Model::Mdl_WallA_Out_Upper", "Mesh" {
+	Model: 1744440526784, "Model::Mdl_WallA_Out_Upper", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationPivot", "Vector3D", "Vector", "",-275,-375,0
@@ -343,7 +359,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2733934354848, "Material::Blockout_Temp_Mat", "" {
+	Material: 1747152002608, "Material::StoneBricks_Trim", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -366,11 +382,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Mdl_WallA_Out_Upper, Model::RootNode
-	C: "OO",2734588790304,0
+	C: "OO",1744440526784,0
 	
 	;Geometry::, Model::Mdl_WallA_Out_Upper
-	C: "OO",2730411378880,2734588790304
+	C: "OO",1747052846672,1744440526784
 	
-	;Material::Blockout_Temp_Mat, Model::Mdl_WallA_Out_Upper
-	C: "OO",2733934354848,2734588790304
+	;Material::StoneBricks_Trim, Model::Mdl_WallA_Out_Upper
+	C: "OO",1747152002608,1744440526784
 }

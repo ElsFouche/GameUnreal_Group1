@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 11
-		Day: 10
+		Day: 19
 		Hour: 21
-		Minute: 41
-		Second: 27
-		Millisecond: 457
+		Minute: 28
+		Second: 30
+		Millisecond: 298
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.8"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -28,21 +28,21 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallA_Out_Lower1.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallA_Out_Lower1.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models\Modular\StoneBricks_Trim_plane.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models\Modular\StoneBricks_Trim_plane.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2026"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "11/11/2025 05:41:27.456"
-			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\_Models\Mdl_WallA_Out_Lower1.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "20/11/2025 05:28:30.296"
+			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models\Modular\StoneBricks_Trim_plane.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2026"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "11/11/2025 05:41:27.456"
-			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\BG3BlockOut5.ma"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "20/11/2025 05:28:30.296"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\Texturing.0003.ma"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2735108269520, "", "Scene" {
+	Document: 1747154037952, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -222,52 +222,64 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2730411378432, "Geometry::", "Mesh" {
-		Vertices: *18 {
-			a: -200,-375,400,-200,-375,0,0,-375,400,0,-375,0,0,-575,400,0,-575,0
+	Geometry: 1747052846672, "Geometry::", "Mesh" {
+		Vertices: *12 {
+			a: 500,-50,-1.11022302462516e-14,600,-50,-1.11022302462516e-14,500,50,1.11022302462516e-14,600,50,1.11022302462516e-14
 		} 
-		PolygonVertexIndex: *8 {
-			a: 1,0,2,-4,5,3,2,-5
+		PolygonVertexIndex: *4 {
+			a: 0,1,3,-3
 		} 
-		Edges: *7 {
-			a: 1,0,3,2,6,7,4
+		Edges: *4 {
+			a: 0,3,1,2
 		} 
 		GeometryVersion: 124
 		LayerElementNormal: 0 {
 			Version: 102
 			Name: ""
-			MappingInformationType: "ByPolygonVertex"
+			MappingInformationType: "ByVertice"
 			ReferenceInformationType: "Direct"
-			Normals: *24 {
-				a: 0,1,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,0,1,0,0
+			Normals: *12 {
+				a: 0,-2.22044604925031e-16,1,0,-2.22044604925031e-16,1,0,-2.22044604925031e-16,1,0,-2.22044604925031e-16,1
 			} 
-			NormalsW: *8 {
-				a: 1,1,1,1,1,1,1,1
+			NormalsW: *4 {
+				a: 1,1,1,1
 			} 
 		}
 		LayerElementBinormal: 0 {
 			Version: 102
 			Name: "map1"
-			MappingInformationType: "ByPolygonVertex"
+			MappingInformationType: "ByVertice"
 			ReferenceInformationType: "Direct"
-			Binormals: *24 {
-				a: -2.26660592517192e-08,0,1,7.93312011637681e-08,-0,1,1.81328459802899e-07,-0,1,7.93312011637681e-08,-0,1,0,-2.8332574064649e-09,1,-0,8.92475995328823e-08,1,-0,1.81328459802899e-07,1,-0,8.92475995328823e-08,1
+			Binormals: *12 {
+				a: -1,0,0,-1,-1.49011611938477e-08,-3.30872245021211e-24,-1,-2.98023223876953e-08,-6.61744490042422e-24,-1,-1.49011611938477e-08,-3.30872245021211e-24
 			} 
-			BinormalsW: *8 {
-				a: 1,1,1,1,1,1,1,1
+			BinormalsW: *4 {
+				a: 1,1,1,1
 			} 
 
 		}
 		LayerElementTangent: 0 {
 			Version: 102
 			Name: "map1"
-			MappingInformationType: "ByPolygonVertex"
+			MappingInformationType: "ByVertice"
 			ReferenceInformationType: "Direct"
-			Tangents: *24 {
-				a: -1,0,-2.26660592517192e-08,-1,0,7.93312011637681e-08,-1,-0,1.81328459802899e-07,-1,0,7.93312011637681e-08,0,1,2.8332574064649e-09,0,1,-8.92475995328823e-08,0,1,-1.81328459802899e-07,0,1,-8.92475995328823e-08
+			Tangents: *12 {
+				a: 0,1,2.22044604925031e-16,-1.49011611938477e-08,1,2.22044604925031e-16,-2.98023223876953e-08,1,2.22044604925031e-16,-1.49011611938477e-08,1,2.22044604925031e-16
 			} 
-			TangentsW: *8 {
-				a: 1,1,1,1,1,1,1,1
+			TangentsW: *4 {
+				a: 1,1,1,1
+			} 
+		}
+		LayerElementColor: 0 {
+			Version: 101
+			Name: "colorSet1"
+			MappingInformationType: "ByPolygonVertex"
+			ReferenceInformationType: "IndexToDirect"
+			Colors: *16 {
+				a: 1,0,0,1,1,0,0,1,1,0,0,1,1,0,0,1
+			} 
+			ColorIndex: *4 {
+				a: 0,1,2,3
 			} 
 		}
 		LayerElementUV: 0 {
@@ -275,11 +287,11 @@ Objects:  {
 			Name: "map1"
 			MappingInformationType: "ByPolygonVertex"
 			ReferenceInformationType: "IndexToDirect"
-			UV: *12 {
-				a: 0.666153430938721,0.00890281796455383,0.666153430938721,0.666324615478516,0.337442487478256,0.66632467508316,0.337442487478256,0.00890281051397324,0.00873157382011414,0.00890281144529581,0.00873157382011414,0.666324615478516
+			UV: *8 {
+				a: 2.98023223876953e-08,1,0,2.98023223876953e-08,1,1,1,0
 			} 
-			UVIndex: *8 {
-				a: 0,1,2,3,4,3,2,5
+			UVIndex: *4 {
+				a: 0,1,3,2
 			} 
 		}
 		LayerElementSmoothing: 0 {
@@ -287,8 +299,8 @@ Objects:  {
 			Name: ""
 			MappingInformationType: "ByEdge"
 			ReferenceInformationType: "Direct"
-			Smoothing: *7 {
-				a: 0,0,0,0,0,0,0
+			Smoothing: *4 {
+				a: 0,0,0,0
 			} 
 		}
 		LayerElementMaterial: 0 {
@@ -319,6 +331,10 @@ Objects:  {
 				TypedIndex: 0
 			}
 			LayerElement:  {
+				Type: "LayerElementColor"
+				TypedIndex: 0
+			}
+			LayerElement:  {
 				Type: "LayerElementSmoothing"
 				TypedIndex: 0
 			}
@@ -328,22 +344,22 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2734588787984, "Model::Mdl_WallA_Out_Lower1", "Mesh" {
+	Model: 1744437164368, "Model::StoneBricks_Trim_plane", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",0,-375,0
-			P: "ScalingPivot", "Vector3D", "Vector", "",0,-375,0
+			P: "RotationPivot", "Vector3D", "Vector", "",550,0,0
+			P: "ScalingPivot", "Vector3D", "Vector", "",550,0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",0,375,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-550,0,0
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2733934339248, "Material::Blockout_Temp_Mat", "" {
+	Material: 1747152001808, "Material::StoneBricks_Trim", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -365,12 +381,12 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::Mdl_WallA_Out_Lower1, Model::RootNode
-	C: "OO",2734588787984,0
+	;Model::StoneBricks_Trim_plane, Model::RootNode
+	C: "OO",1744437164368,0
 	
-	;Geometry::, Model::Mdl_WallA_Out_Lower1
-	C: "OO",2730411378432,2734588787984
+	;Geometry::, Model::StoneBricks_Trim_plane
+	C: "OO",1747052846672,1744437164368
 	
-	;Material::Blockout_Temp_Mat, Model::Mdl_WallA_Out_Lower1
-	C: "OO",2733934339248,2734588787984
+	;Material::StoneBricks_Trim, Model::StoneBricks_Trim_plane
+	C: "OO",1747152001808,1744437164368
 }
