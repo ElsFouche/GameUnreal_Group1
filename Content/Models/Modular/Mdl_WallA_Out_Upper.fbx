@@ -7,14 +7,14 @@ FBXHeaderExtension:  {
 	CreationTimeStamp:  {
 		Version: 1000
 		Year: 2025
-		Month: 11
-		Day: 19
-		Hour: 21
-		Minute: 28
-		Second: 28
-		Millisecond: 4
+		Month: 12
+		Day: 8
+		Hour: 15
+		Minute: 21
+		Second: 22
+		Millisecond: 206
 	}
-	Creator: "FBX SDK/FBX Plugins version 2020.3.8"
+	Creator: "FBX SDK/FBX Plugins version 2020.3.9"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
 		Type: "UserData"
 		Version: 100
@@ -34,15 +34,15 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "Maya"
 			P: "Original|ApplicationVersion", "KString", "", "", "2026"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "20/11/2025 05:28:28.002"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "08/12/2025 23:21:22.205"
 			P: "Original|FileName", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models\Modular\Mdl_WallA_Out_Upper.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "Maya"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2026"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "20/11/2025 05:28:28.002"
-			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Repo\GameUnreal_Group1\Content\Models"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\Texturing.0003.ma"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "08/12/2025 23:21:22.205"
+			P: "Original|ApplicationActiveProject", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "D:\CAGD_373\GameScene_Project\GameScene_Maya\scenes\Texturing.0006.ma"
 		}
 	}
 }
@@ -77,7 +77,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1747154037952, "", "Scene" {
+	Document: 2274825744016, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", "Take 001"
@@ -222,9 +222,9 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1747052846672, "Geometry::", "Mesh" {
+	Geometry: 2274361604400, "Geometry::", "Mesh" {
 		Vertices: *18 {
-			a: -450,-375,400,-450,-375,0,-275,-375,400,-275,-375,0,-275,-550,400,-275,-550,0
+			a: -825,-325,400,-825,-325,0,-650,-325,400,-650,-325,0,-650,-500,400,-650,-500,0
 		} 
 		PolygonVertexIndex: *8 {
 			a: 1,0,2,-4,5,3,2,-5
@@ -344,22 +344,22 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1744440526784, "Model::Mdl_WallA_Out_Upper", "Mesh" {
+	Model: 2274321588016, "Model::Mdl_WallA_Out_Upper", "Mesh" {
 		Version: 232
 		Properties70:  {
-			P: "RotationPivot", "Vector3D", "Vector", "",-275,-375,0
-			P: "ScalingPivot", "Vector3D", "Vector", "",-275,-375,0
+			P: "RotationPivot", "Vector3D", "Vector", "",-650,-325,0
+			P: "ScalingPivot", "Vector3D", "Vector", "",-650,-325,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",275,375,0
+			P: "Lcl Translation", "Lcl Translation", "", "A",650,325,0
 			P: "currentUVSet", "KString", "", "U", "map1"
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1747152002608, "Material::StoneBricks_Trim", "" {
+	Material: 2274009016096, "Material::StoneBricks_Trim", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -382,11 +382,11 @@ Objects:  {
 Connections:  {
 	
 	;Model::Mdl_WallA_Out_Upper, Model::RootNode
-	C: "OO",1744440526784,0
+	C: "OO",2274321588016,0
 	
 	;Geometry::, Model::Mdl_WallA_Out_Upper
-	C: "OO",1747052846672,1744440526784
+	C: "OO",2274361604400,2274321588016
 	
 	;Material::StoneBricks_Trim, Model::Mdl_WallA_Out_Upper
-	C: "OO",1747152002608,1744440526784
+	C: "OO",2274009016096,2274321588016
 }
